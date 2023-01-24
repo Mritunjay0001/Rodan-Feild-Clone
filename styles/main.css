@@ -1,0 +1,597 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* this is the main div where the will play */
+
+#main_video_banner{
+  width: 100%;
+  border: 0px solid red;
+  height: 600px;
+  display: flex;
+  
+}
+
+
+
+/* this is the child 1 which is  responible for left content */
+
+#main_video_banner>div:nth-child(1){
+  border: 0px solid red;
+  width:50%    ;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #8a5080;
+  
+}
+.heading_in_video_banner{
+  margin-top: 150px;
+  font-size: 28px;
+  width: 300px;
+  margin-left: 30px;
+  color: white;
+  line-height: 35px;
+  
+}
+.p_in_video_banner{
+  margin-top: 35px;
+  text-align: justify;
+  width: 300px;
+  margin-left: 30px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 20px;
+
+}
+.btn_in_video_banner{
+  margin-top: 50px;
+  padding: 10px;
+  width: 280px;
+  margin-left: 50px;
+  color: black;
+  font-weight:bold;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+/* this is the child div 2 which is responible for right content (video)  */
+#main_video_banner>div:nth-child(2){
+  border: 0px solid red;
+  width: 86%;
+  
+}
+.main_video_banner_2nd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main_video_banner_2nd>div{
+
+  border: 0px solid red;
+  width: 90%;
+  height: 80%;
+  
+}
+
+
+/* this is responsible for three product which is showing below the video content */
+
+#three_product_div{
+  width: 100%;
+  height: 450px;
+  border: 0px solid red;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 35px;
+}
+#three_product_div>div{
+  width:350px;
+  height: 430px;
+  border: 0px solid red;
+  background-size: 100%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+#three_product_div>div:nth-child(1){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Hair-Smooth-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTY2MjZ8aW1hZ2UvanBlZ3xoYzAvaDExLzE1ODg5Mzg4NjM0MTQyLmpwZ3w1ZTMxZWJjNWE4YmQ2ZmM0NjEzMWQzOGVmYzA5MmIyNGRkOTAwMmJmNzQ4Y2M0ZjNhN2MwYTU5NTY5MWU4ZDA2);
+  background-size: 100%;
+}
+#three_product_div>div:nth-child(2){
+  
+  background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-1-HP-Module-US-CAN-AUS2.jpg?context=bWFzdGVyfHJvb3R8NTQ4ODR8aW1hZ2UvanBlZ3xoNWEvaGQwLzE1ODg5Mzg4Njk5Njc4LmpwZ3w1ZTNjODZhYzM0NTM1N2M4MGViYjYyMWRkZmYyNDU3MGU5MDdkZGQxZDIyZWI4ZmQwYmI4ZjVjOGRmOTg0NDdl);
+  background-size: 100%;
+  border-radius: 10px;
+}
+#three_product_div>div:nth-child(3){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/HOL-Skincare-2-HP-Module-US2.jpg?context=bWFzdGVyfHJvb3R8NjgyMzV8aW1hZ2UvanBlZ3xoNzcvaGEzLzE1ODg5Mzg4NzY1MjE0LmpwZ3xjMWM0YWNhZjIyMjg2OTgwODA5MzgyOWNlYzc5OTE5MDBhNjZiYWIzYTQ2NDI5ZTRmMTZjNmJhOTBjNTVmOGJm);
+  background-size: 100%;
+  border-radius: 10px;
+}
+#three_product_div>div>p:nth-child(1){
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  
+
+
+}
+#three_product_div>div>p:nth-child(2){
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+
+
+}
+/* -------------------------------------------------- */
+
+#two_product_image_div{
+  width: 100%;
+  border: 0px solid red;
+  height: 700px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  
+}
+#two_product_image_div>div{
+  width: 550px;
+  height: 700px;
+  border: 0px solid red;
+  cursor: pointer;
+}
+
+#two_product_image_div>div:nth-child(1){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Skincare.jpg?context=bWFzdGVyfHJvb3R8MTQwMzU3fGltYWdlL2pwZWd8aDI3L2hkZS8xNTg4OTM4ODgzMDc1MC5qcGd8YTNiNTNmYTgzZmRjMzM5MzYwYjNhYjAwYTg3MDE1MzI3MTNhYzI4ZjUyZTBhM2VkNmUxMWFiOWY3NmQyNDgyZQ);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+
+}
+#two_product_image_div>div:nth-child(2){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Haircare.jpg?context=bWFzdGVyfHJvb3R8MjAwMzMzfGltYWdlL2pwZWd8aDgzL2hlZC8xNTg4OTM4ODg5NjI4Ni5qcGd8NjdjMDBiNTU1MTgwMTg2Mzg5NWEwNGM2ZTc2ZTQyNDE5ODJjYWVkNGYyM2M4ZWYxM2ZhODcxMThlNDI4YjdkOA);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+
+}
+.p2c{
+  text-align: center;
+  margin-top: 645px;
+}
+
+#Add_container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+width: 100%;
+height: 580px;
+border: 0px solid blue;
+margin: auto;
+gap: 20px;
+margin-top: 50px;
+background-color: rgb(252, 238, 240);
+cursor: pointer;
+}
+.add_img{
+text-align: center;
+border: 0px solid red;
+height: 509px;
+background-color: white;
+margin: auto;
+}
+.add_img img{
+width: 85%;
+}
+.add_img p,h4 {
+margin-top: 10px;
+/* margin-left: 20px */
+}
+.fas {
+margin-top: 10px;
+color: #363535;
+}
+#addbtn{
+width: 95%;
+height: 40px;
+margin-left: 10px;
+margin-top: 10px;
+background-color: #fff;
+font-size: 15px;
+border: 1px solid #363535 ;
+font-weight: bold;
+border-radius: 4px;
+cursor: pointer;
+}
+#addbtn:hover{
+background-color: rgb(206, 229, 237);
+}
+.derm{
+font-size: 40px;
+color: #363535;
+text-align: center;
+margin-top: 60px;
+}
+
+/* div.scrollmenu div:hover {
+  background-color: #777;
+} */
+
+
+
+
+
+#six_div{
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+  border: 0px solid red;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  justify-content: center;
+  align-items: center;
+  
+}
+#six_div>div{
+  width: 200px;
+  height: 300px;
+  border: 0px solid red;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  cursor: pointer;
+  
+}
+#six_div>div>p{
+  font-weight: bold;
+  margin-top: 240px;
+  text-align: center;
+  color: #222222;
+  
+}
+
+#six_div>div:nth-child(1):hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-1.png?context=bWFzdGVyfHJvb3R8MzcxNDI1fGltYWdlL3BuZ3xoOGIvaDJiLzEzOTAwNTk3MTMzMzQyLnBuZ3w5NTMwMDY2NDkxOTRmNDI1Mjc5ZjIyOTYxYjUyZTFiNDkyNDZhODZmNTJlZmQ4ZjU4NzBmZjI2NzFiMzhmZTMy);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(2):hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-2.png?context=bWFzdGVyfHJvb3R8Mzg1Mjk1fGltYWdlL3BuZ3xoOGUvaGI2LzEzOTAwNTk3MTk4ODc4LnBuZ3xmYzY3MThiYTcyZTNiMjhjNTI4MGZjNTUxMTY5OTgwNjFhMWQzM2Y0ZWQyZjJjMTUwOGEwYjBmM2Y1NjVlMTI3);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(3):hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-3.png?context=bWFzdGVyfHJvb3R8MzU2OTI0fGltYWdlL3BuZ3xoNDMvaGJkLzEzOTAwNTk3MjY0NDE0LnBuZ3xhMWMzNDBiMGI0MWJmNjkwMDk2NDc0NGMxMjc4ZjljYzMzODYyYTRmNGUyNjFiYjZlOWZhOWM4ZmUzYTFjZmYz);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(4):hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-4.png?context=bWFzdGVyfHJvb3R8MzEzMzg3fGltYWdlL3BuZ3xoYjIvaDMwLzEzOTAwNTk3MzI5OTUwLnBuZ3xlOGYwOTgwZmYxNWIzNGVhNjZiN2I1NGI0NWVmZTFhOGQwYmJlOGMzZjE5NzA4ODRjNjZlMzliZDAzZjVhNDk0);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(5):hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Smooth-Concern-6-grid-HOVER-STATE-438x438.jpg?context=bWFzdGVyfHJvb3R8MTQ1MTIwfGltYWdlL2pwZWd8aDc2L2g3My8xNTg4OTM4NDA3OTM5MC5qcGd8ZTY4N2UxZDlkMWU4YmJiOTU5NGU5MWQyMzk5ZWQ2NjdlYzcwZWVmNzVjOTI2MTIzY2MwNGEwMGQ4NWVjMDU4Mg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(6):hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Volume-Concern-6-grid-HOVER-STATE-438x438.jpg?context=bWFzdGVyfHJvb3R8NjE0NTl8aW1hZ2UvanBlZ3xoOTMvaDgzLzE1ODg5Mzg0MjEwNDYyLmpwZ3w4MGNlMjFhNGYwZTk1MTZmY2JkNzgwNzM5MmU0ZThiNDg1MjIzYjNiZjBlYjhjZGJkZTlmMzM2MWQzNzlmY2Fm);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(6){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Volume-Concern-6-grid-438x438.jpg?context=bWFzdGVyfHJvb3R8MjAyMzJ8aW1hZ2UvanBlZ3xoNTIvaDlhLzE1ODg5Mzg0Mjc1OTk4LmpwZ3xlNzFmZmYyMmE4MjkzNDQ0ZmY2MGFmYzE0MmQxODdlYzQ4ZTE2NmUyZjQ2N2YwMzdiOTdiNjM1YmZlMGU2ZmUx);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(5){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/HP-Smooth-Concern-6-grid-438x438.jpg?context=bWFzdGVyfHJvb3R8MjE5Njh8aW1hZ2UvanBlZ3xoNDUvaDUwLzE1ODg5Mzg0MTQ0OTI2LmpwZ3xhNmY5NjEzM2M1MmUyM2Y5ZTk0MWYzYWU5NGIwZmY0NzUyNTMzNmZkYTQxZThkYTlhZmE5ZDlkMTM5YTRiNzM1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(2){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Acne-Breakouts-Card.jpg?context=bWFzdGVyfHJvb3R8NjU4Mjd8aW1hZ2UvanBlZ3xoMTEvaDJhLzEyODg5MTg4MjcwMTEwLmpwZ3wxMTg2NjQ4NjM0Y2QyZDY4MDdmZDU4ZmI0ZDkxMTlhM2UxMDgyYTFkMGVkOWMzMTBkYzY3ZTJmNGEzNzVlZDhm);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(1){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Fine-Lines-Wrinkles-Card.jpg?context=bWFzdGVyfHJvb3R8NTgzMDF8aW1hZ2UvanBlZ3xoODYvaGY2LzEyODg5MTg4MjA0NTc0LmpwZ3wzYjIwYmU0ZWI3NWZkYjFmNzJjNjVmZWNhYmJmN2RlODdjYjFmNTU0ODZjZWE0YjQ5NWIzNWQzYmQyN2UxZjli);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(4){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Sensitivity-Visible-Redness-Card.jpg?context=bWFzdGVyfHJvb3R8NjE5MTd8aW1hZ2UvanBlZ3xoNTgvaGM3LzEyODg5MTg4NDAxMTgyLmpwZ3wwN2M4ZTJmMGExMDI1ZTM2MjE4M2I3MzFlZWI5NDJkZDYzZmMzMDdhMDMyNGFjODUyY2MwMWUzMDk5MDVjZWZk);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#six_div>div:nth-child(3){
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Uneven-Tone-Brown-Spots-Card.jpg?context=bWFzdGVyfHJvb3R8NTc4OTV8aW1hZ2UvanBlZ3xoY2UvaDY0LzEyODg5MTg4MzM1NjQ2LmpwZ3w0ZjUyN2U3MWE1YzYwNmNmYzgxZTQ3MTAxNmU3ZGIyNjA4NmU1MTQ2Mjc4NWU2NWRhOTFmNDU3NGRmNmI0MDFi);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#middle_banner_img{
+  width: 95%;
+  height:150px;
+  border: 0px solid red;
+  margin: auto;
+  margin-top: 70px;
+  background-color: rgb(227, 240, 246);
+}
+.middle_para{
+  width: 80%;
+  height: 100px;
+  border: 0px solid red;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.middle_para>div{
+  width: 35%;
+  height: 90px;
+  margin: auto;
+  margin-left: 10px;
+  border: 0px solid red;
+}
+.middle_para div p{
+  font-size: 30px;
+  text-align: center;
+  color: #504e4e;
+}
+.middle_para div ul li{
+  margin-left: 20px;
+  font-size: 18px;
+}
+.findbtn{
+  width: 50%;
+  padding: 12px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #fff;
+  font-size: 13px;
+  border: 1px solid #504e4e;
+  cursor: pointer;
+}
+.findbtn:hover{
+background-color: aliceblue;
+}
+
+#middlepart_image{
+  width: 95%;
+  height: 500px;
+  display: grid;
+ grid-template-columns: repeat(3,1fr);
+  border: 0px solid blue;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #f3f7f8;
+}
+#middlepart_image>div{
+  width: 80%;
+  height: 390px;
+  margin: auto;
+  border: 0px solid red;
+}
+#middlepart_image>div>div>img{
+  width: 100%;
+}
+.headpara{
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.headpara h5{
+  font-size:20px;
+}
+.headpara p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* text-align: justify; */
+}
+
+.reflink{
+  margin-top: 60px;
+  color: black;
+  margin-left: 29px;
+}
+
+/* two_banner_product_div */
+
+#two_banner_product_div{
+width: 100%;
+border: 0px solid red;
+height: 345px;
+display: flex;
+justify-content: space-evenly;
+}
+#two_banner_product_div>div{
+width: 48%;
+height: 98%;
+border: 0px solid red;
+display: flex;
+cursor: pointer;
+}
+.two_banner_product_div_child{
+border: 0px solid blue;
+width: 50%;
+height: 100%;
+text-align: left;
+margin-left: 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.two_banner_product_div_child>img{
+width: 100%;
+}
+.pc1{
+background-color: #fef9f2;
+}
+
+
+
+/* scrollbar */
+
+.radon{
+margin-top: 20px;
+margin-left: 30px;
+color: #363535;
+}
+
+.scrollmenu>div{
+
+width: 300px;
+height: 320px;
+border: 0px solid green;
+margin-left: 10px;
+}
+div.scrollmenu {
+/* background-color: #333; */
+overflow: auto;
+margin-top: 40px;
+white-space: nowrap;
+border: 0px solid red;
+width: 100%;
+height:340px;
+/* display: flex; */
+}
+
+div.scrollmenu div {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+position: relative;
+}
+div.scrollmenu div>img{
+width: 250px;
+height: 300px;
+border: 0px solid yellow;
+
+}
+div.scrollmenu div>img{
+width: 100%;
+
+}
+
+
+
+
+
+
+
+/* media queries-------------------------------------------------------------> */
+
+
+@media screen and (max-width: 830px) {
+
+  #main_video_banner{
+      /* margin-top: 380px; */
+      width: 100%;
+      border: 1px solid red;
+      height: 600px;
+      display: flex;
+      flex-direction:column-reverse;
+      
+      
+  }
+
+  #main_video_banner>div:nth-child(2){
+      border: 1px solid red;
+      width: 90%;
+      height: 300px;
+      margin: auto;
+      /* margin-top: 10px; */
+      
+      
+  }
+  .vdo{
+     width:112%;
+  }
+ 
+ 
+
+  #main_video_banner>div:nth-child(1){
+      border: 0px solid red;
+      width:100%;
+      height: 300px;
+      /* display:grid; */
+      flex-direction: column;
+      /* gap: 5px; */
+      background: #8a5080;
+      justify-content: center;
+      align-items: center;
+      /* margin-top: 1px; */
+      
+  }
+  .heading_in_video_banner{
+      margin-top: 30px;
+      font-size: 28px;
+      width: auto;
+      /* margin-left: 30px; */
+      color: white;
+      /* line-height: 35px; */
+      
+  }
+  .p_in_video_banner{
+      margin-top: 15px;
+      text-align: justify;
+      width: 300px;
+      margin-left: 30px;
+      color: white;
+      font-size: 15px;
+      font-family: sans-serif;
+      /* line-height: 20px; */
+  
+  }
+  .btn_in_video_banner{
+      margin-top: 12px;
+      padding: 10px;
+      width: 280px;
+      margin-left: 50px;
+      color: black;
+      font-weight:bold;
+      
+  }
+
+  #three_product_div{
+      
+      width: 90%;
+      margin: auto;
+      margin-top: 28px;
+      height: 300px;
+  }
+
+  #two_product_image_div{
+      width: 90%;
+      /* height: 400px; */
+      margin: auto;
+  }
+  .p2c{
+      text-align: center;
+      margin-top: 400px;
+   }
+  
+  
+}

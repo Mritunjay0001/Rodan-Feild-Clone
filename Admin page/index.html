@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: #faf6f5;
+        }
+        #div_b{
+    /* margin-top: 20px; */
+   
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to right top, #1f324f, #005f8c, #0091aa, #00c196, #12eb54);
+    margin: auto;
+    margin-top: 160px;
+    padding: 15px;
+border-radius: 5px;
+
+
+}
+
+#div_b>h2{
+    text-align: center;
+}
+#div_b>input{
+    height: 40px;
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#div_b>button{
+    margin-top: 25px;
+    margin-left: 120px;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+}
+#div_b>button:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div id="div_b">
+          <h2>Login Here</h2>
+         <input type="email" placeholder="Enter Email" id="mail">
+         <input type="password" placeholder="Enter Password" id="pswd">
+         <button onclick="login()">Submit</button>
+
+
+      </div>
+</body>
+<script src="login.js"></script>
+</html>

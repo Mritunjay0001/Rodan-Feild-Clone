@@ -1,0 +1,126 @@
+*{
+    font-family:  ProximaNovaRegular,Arial;
+}
+#top2{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 240px;
+    text-align: left;
+    background-color: #c4d5e3;
+    border: 1px solid #c4d5e3;
+}
+#top2>h1{
+
+    font-size: 32px;
+    color: #222222;
+    font-weight: 200;
+    margin-top: 80px;
+    margin-left: 100px;
+    font-family: "RFFontRoman",Arial, sans-serif;;
+}
+#top2>p{
+    color:#3b3b3b;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.head2{
+    margin: auto;
+    width: 90%;
+}
+.head2>.h3{
+
+    font-size: 24px;
+    color: #222222;
+}
+.head2>.h4{
+
+    color: #3b3b3b;
+    font-size: 18px;
+}
+#regimens{
+    width: 90%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+#regimens>div{
+margin-top: 10px;
+color:#222222;
+padding: 5px;
+}
+#regimens>div>h4{
+    font-weight: 300;
+}
+#regimens>div>button{
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#serums>div>img{
+    height: 60%;
+    width: 100%;
+}
+
+#serums{
+    width: 90%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+#serums>div{
+margin-top: 10px;
+color:#222222;
+padding: 5px;
+}
+#serums>div>h4{
+    font-weight: 300;
+}
+#serums>div>button{
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#regimens>div>img{
+    height: 60%;
+    width: 100%;
+}
+
+#individual{
+    width: 90%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+#individual>div{
+margin-top: 10px;
+color:#222222;
+padding: 5px;
+}
+#individual>div>h4{
+    font-weight: 300;
+}
+#individual>div>button{
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#individual>div>img{
+    height: 60%;
+    width: 100%;
+}

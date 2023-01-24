@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topbar{
+    margin-top: 10px;
+    border: px solid black;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(247,244,242);
+}
+#mainnav{
+    border: px solid BLACK;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+#login-wala{
+    display: flex;
+    gap: 10px;
+    margin-right: 15px;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    position:sticky
+    
+    
+}
+#login-wala>div{
+    margin-right: 18px;
+
+    
+  
+}
+.logo{
+    width: 80px;
+}
+#mainnav>h4{
+margin-left: 10px;
+}
+#login-wala>div>a{
+    text-decoration: none;
+    color: black;
+
+}
+#thirdparty{
+    width: 90%;
+    border: px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+    position: sticky;
+    cursor: pointer;
+    
+}
+#thirdparty>h3{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 60px 70px;
+    z-index: 1;
+    font-size: 19px;
+    line-height:60px;
+    
+
+    
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .parda{
+    text-decoration: none;
+    color: black;
+  }
+a{
+    text-decoration: none;
+    color: black;
+}
+h4:hover{
+    text-decoration: underline;
+}
+.logo{
+    border-radius: 83px;
+    margin-left:266px;
+}

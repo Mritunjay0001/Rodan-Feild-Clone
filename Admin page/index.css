@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+    font-family:  ProximaNovaRegular,Arial;
+
+   
+}
+
+
+
+#nav{
+    position: sticky;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 0px solid red;
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient(to right top, #1f324f, #005f8c, #0091aa, #00c196, #12eb54);
+}
+
+/* h1{
+    text-align: center;
+} */
+#out>button{
+    height: 40px;
+    width: 60px;
+    background-color:  #00c196;
+    border-radius: 5px;
+}
+#out>button:hover{
+    cursor: pointer;
+    background-color: #0091aa;
+    color: #ffffff;
+
+}
+
+#pagein>a{
+    height: 40px;
+    width: 60px;
+    background-color:  #00c196;
+    border-radius: 5px;
+}
+#pagein>a{
+    text-decoration: none;
+}
+#div_box{
+    width: 30%;
+}
+form{
+    /* margin-top: 20px; */
+   
+    border: 0px solid red;
+    width: 300px;
+    height: 600px;
+    background-image: linear-gradient(to right top, #1f324f, #005f8c, #0091aa, #00c196, #12eb54);
+
+
+}
+input{
+    width: 85%;
+    height: 30px;
+    
+    margin-left: 15px;
+    margin-top: 15px;
+    border-bottom: #005f8c;
+    border-radius: 10px;
+
+   
+}
+h2{
+    text-align: center;
+}
+button{
+    width: 50%;
+    height: 20px;
+    margin-left: 64px;
+    margin-top: 15px;
+
+}
+#add_product{
+width: 100px;
+margin-left: 88px;
+margin-bottom: 20px;
+background-color:yellow;
+font-weight: 700;
+
+
+
+}
+#add_product:hover{
+    background-color: #005f8c;
+    cursor: pointer;
+    color: #ffffff;
+    
+}
+#container{
+    display: flex;
+ 
+width: 80%;
+margin-left: 300px
+;
+margin-top: -599px;
+}
+
+#container>div>img{
+    width: 200px;
+}
+#container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+ 
+}
+
+#container>div{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+#container>div>img{
+    height: 80%;
+    width: 100%;
+}
+#container>div>h3{
+
+    font-weight: 600;
+    
+}
+#container>div>p{
+font-weight: 700;
+}
+#container>div>button{
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: medium;
+    background-color: #ffffff;
+
+}
+#container>div>button:hover{
+    cursor: pointer;
+    background-color: #00c196;
+    color: #ffffff;
+
+
+}

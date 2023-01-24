@@ -1,0 +1,277 @@
+.Mainheader{
+    text-align: center;
+}
+.Mainheader>div:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 
+    "Times New Roman";;
+}
+.Mainheader>p{
+    font-size: 48px;
+    border: 1px solid transparent;
+    line-height: 0px;
+    font-family: RFdisplayRegular, "Times New Roman", Times, serif;;
+}
+.headersub{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  
+
+}
+
+.headersub>span{
+    font-size: 12px;
+    color: grey;
+}
+.imgwala{
+    display: flex;
+    background-color: #FAF6F5;
+    border: px solid black;
+}
+#des>div{
+    margin-top: 100px;
+    margin-left: 400px;    
+}
+.imgtitle{
+    font-size: 40px;
+    padding-top: 0px;
+}
+
+.imgwala>div{
+    height: 500px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.imgheading{
+    font-size: 50px;
+   
+}
+.title{
+    margin-top: 100px;
+    line-height: 0px;
+}
+a{
+    color: black;
+    font-size: 15px;
+
+}
+.img{
+    background-image: url(https://www.rodanandfields.com/en-us/blog/wp-content/uploads/2022/10/rodan-fields-haircare.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    back 
+}
+.img1>img{
+    
+    height:100%;
+    width:100%
+}
+
+.imgwala{
+    display: flex;
+    background-color: #FAF6F5;
+}
+#des1>div{
+    margin-left: 20px;
+    
+}
+#des1>div>p:nth-child(1){
+   
+   margin-top:120px;
+}
+#des1>div>p:nth-child(3){
+   font-family: "Times New Roman";;
+}
+
+#des2>div>p:nth-child(1){
+    margin-top: 120px;
+    
+}
+#des2>div{
+    margin-left: 300px;
+    
+}
+
+
+.blogcat{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "a b c d e";
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.blogtitle{
+   
+    text-align: center;
+    font-size: 25px;
+    
+}
+.img3{
+    background-image:url(https://www.rodanandfields.com/en-us/blog/wp-content/uploads/2020/08/RF_Masks19_Reverse_Shape_130_v3X_RGB_1100x1100-1024x1024.jpg) ;
+    background-size: 100% 135%;
+    background-repeat: no-repeat;
+}
+
+.blogcat>div{
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.blogcat>div:nth-child(1){
+    grid-area: a;
+}
+.blogcat>div:nth-child(2){
+    grid-area: b;
+}
+.blogcat>div:nth-child(3){
+    grid-area: c;
+}
+.blogcat>div:nth-child(4){
+    grid-area: d;
+}
+.blogcat>div:nth-child(5){
+    grid-area: e;
+}
+.blogcat>div>img{
+    width: 100%;
+
+}
+
+
+#productscontainer{
+    display: grid;
+  width: 1200px;
+  justify-content: space-between;
+   grid-template-rows: repeat(1,1fr);
+   grid-template-columns: repeat(5,1fr);
+   grid-gap: 10px;
+    grid-template-areas: 
+    "a b c d e";
+   margin: auto;
+    
+}
+#productscontainer>div{
+    width: 200px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+#productscontainer>div>img{
+    width: 100%;
+    height: 200px;
+}
+#productscontainer>div>p:nth-child(2n){
+    text-decoration: underline;
+}
+.center{
+    text-align: center;
+}
+.size{
+    font-size: 30px;
+}
+.protag{
+    font-family: rf_proximaNovaLight;
+    font-size:13px;
+    padding-bottom: 50px;
+}
+#productscontainer>div:nth-child(1){
+    grid-area: a;
+}
+#productscontainer>div:nth-child(2){
+    grid-area: b;
+}
+#productscontainer>div:nth-child(3){
+    grid-area: c;
+}
+#productscontainer>div:nth-child(4){
+    grid-area: d;
+}
+#productscontainer>div:nth-child(5){
+    grid-area: e;
+}
+
+
+
+.skincare{
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    width: 65%;
+margin: auto;
+    justify-content: center; 
+}
+.skintitle{
+    text-align: center;
+    font-size: 25px;
+}  
+    .skincare>div{
+        width: 230px;
+        border:1px solid transparent;
+        text-align: center;
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    }
+    .skincare>div>img{
+        width: 100%;
+        
+    }
+    .skincare>div>p:nth-child(2){
+        font-size: 12px;
+    }
+    .skincare>div>p:nth-child(3){
+        font-size: 14px;
+    }
+
+    .bottomimg{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 4px;
+        width: 50%; 
+        margin: auto;
+         
+    }
+    .bottomimg>div>img{
+       width: 100%;
+       height: 200px;  
+    }
+    .insta{
+        margin-left: 450px;
+    }
+.footer{
+    text-align: center;
+    
+}
+.footer>p{
+    font-size: 12px;
+    color: grey;
+}
+.footer>div>p:nth-last-child(1){
+    font-size: 10px;
+}
+.footericon>div{
+    display: grid;
+    margin: auto;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(5,1fr);
+    width: 15%;
+    border: 1px solid transparent; 
+     
+}
+   .footericon>div>span>img{
+       width: 30px;
+   } 
+
+   h1{
+    font-size: 35px;
+   }

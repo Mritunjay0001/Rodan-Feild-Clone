@@ -1,0 +1,34 @@
+#otp__div {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+#otp__div > div {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+input {
+    width: 2rem;
+    height: 2rem;
+    background-color: silver;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    color: black;
+    text-align: center;
+}
+button {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+
+

@@ -1,0 +1,30 @@
+
+#details__form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 2rem;
+}
+#details__form > div {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+input , select {
+    height: 2rem;
+    background-color: silver;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+#submit {
+    background-color:black;
+    color: white;
+}

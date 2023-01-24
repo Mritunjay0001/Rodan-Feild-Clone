@@ -1,0 +1,161 @@
+/* * {
+    overflow-x: hidden;
+    font-family: ProximaNovaRegular,Arial;
+} */
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+}
+article {
+    width: 80%;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+    padding-bottom: 2rem;
+}
+aside {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    width: 40%;
+    height: 270px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.main__Box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 85%;
+    margin: auto;
+}
+#prodBox {
+    gap: 5px;
+    border: 1px solid silver;
+    border-radius: 2px;
+}
+#prodImage {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+#prodName {
+    text-align: center;
+}
+#prodDesc {
+    text-align: center;
+}
+#prodAmt {
+    text-align: center;
+}
+#prodBtn {
+    width: 20%;
+    display: block;
+    margin: auto;
+    font-weight: 500;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    height: 27px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#review_your_bag {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 7px;
+}
+.main__Box__sideBar > article > img {
+    display: block;
+    margin: auto;
+}
+.main__Box__sideBar > article {
+    padding-top: 1rem;
+    background-color: rgb(238, 236, 236);
+}
+.main__Box__sideBar > article > img + h5 {
+    text-align: center;
+}
+.main__Box__sideBar > article > img + h5 + p{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    padding-bottom: 0.3rem;
+}
+#view___More {
+    margin-left: 180px;
+    font-size: 14px;
+}
+#member__ship__button {
+    display: block;
+    margin: auto;
+    color: #ffffff;
+    background-color: #222222;
+    border-radius: 2px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+#member__ship__button + p {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+}
+.order___summaryDiv {
+    background-color: rgb(238, 236, 236);
+    height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.order___summaryP {
+    text-align: center;
+}
+#priceDisplay {
+    text-align: center;
+}
+#payment {
+    display: block;
+    margin: auto;
+    background-color: #222222;
+    color: #ffffff;
+    padding: .5rem 1.5rem;
+    border-radius: 3px;
+}
+.cart___lengthText {
+    text-align: center;
+}
+.cart___length {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#promo___Code {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    color: paleturquoise;
+    background-color: purple;
+    font-size: 17px;
+}
+.quantity_Number {
+    text-align: center;
+}
+.inc__Dec__Div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 7px;
+}
+/* .plus {
+    display: block;
+    margin: auto;
+} */
+/* .minus {
+    display: block;
+    margin: auto;
+} */
